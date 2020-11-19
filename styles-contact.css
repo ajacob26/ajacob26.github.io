@@ -1,4 +1,4 @@
-/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+/* This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -60,83 +60,182 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/tule_elk_preserve_bg.jpg) 
       center center fixed no-repeat;
     background-size: cover; 
 }
 
+
 .center {
-    width: 800px;
+    width: 80%; /* added this to make div responsive */
+    max-width: 800px; 
 	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
-	text-align: center;
-	border: 4px dashed white;
+    margin: 110px auto;
+    border-radius: 11px 11px; 
+    text-align: center;
+ 	background: rgba(256, 256, 256, .55); /* this uses opacity of 55% for the background color */
+	/* removed -- border: 4px dashed white; */
 }
 
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 40px;
+    margin-top: 10px; 
 	text-align: center;
 }
 
 h1 {
-	font-family: coniferous, sans-serif;
+	font-family: PT Sans, sans-serif;
+    text-transform: uppercase;
     font-weight: 500;
-    font-style: normal;
-	font-size: 2em;
+    font-style: bold;
+	font-size: 2.4em;
+    letter-spacing: 0.80px;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #00334d;
 }
 
 h2 {
-	font-family: coniferous, sans-serif;
+	font-family: Lora Bold, serif;
     font-weight: 500;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
+    font-style: italic;
+	font-size: 1.4em;
+    line-height: 1.2;
+    color: #00334d;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+    letter-spacing: 0.2px;
 }
 
 p {
-	font-family: optima, sans-serif;
+	font-family: Sans, sans-serif;
     font-weight: 500;
     font-style: normal;
-	font-size: 1.2em;
+	font-size: 1em;
     line-height: 1.6;
-    color: #fff;
+    letter-spacing: 0.2px;
+    color: #004466;
+    margin: 0px auto 10px auto;
+    
+/* paragraph fading in and out when page is first opened */
+ animation: fadeIn ease 6s;
+-webkit-animation: fadeIn ease 6s;
+-moz-animation: fadeIn ease 6s;
+-o-animation: fadeIn ease; 6s;
+-ms-animation: fadeIn ease; 6s; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyfranes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 nav{
-    font-family: optima;
-    font-size: 1.2em;
-    width: 400px;
+    font-family: Sans, sans-serif; 
+    font-style: normal;
+    font-size: 1.1em;
+    width: 77%;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
     }
 
+/* all code below replaced demo styles - by Dominik Biedebach @domobch */
 nav li{
     display: inline;
     }
-    
 nav a{
     display: inline-block;
     padding: 10px;
     }
+nav ul {
+  list-style: none;
+  text-align: center;
+    letter-spacing: 0.2px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #004466;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 2.34s;
+}
+nav ul li a:hover {
+  color:#404040;
+}
 
-a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    }
-
-a:hover{
-    color: black;
-    background-color: aliceblue;
-    }
-
+/* adds line below links button */
+nav ul li a{
+    position: relative;  
+}
+nav ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #404040;
+  height: 1.91px;
+}
+nav ul li a:hover:after {
+  width: 75%;
+}
+nav.fill ul li a {
+  transition: all 1s;
+}
