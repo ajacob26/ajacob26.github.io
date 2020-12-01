@@ -71,9 +71,9 @@ html, body {
     max-width: 800px; 
 	padding: 2%;
     margin: 110px auto;
-    border-radius: 11px 11px; 
+    border-radius: 12px 12px; 
     text-align: center;
- 	background: rgba(256, 256, 256, .55); /* this uses opacity of 55% for the background color */
+ 	background: rgba(256, 256, 256, .75); /* this uses opacity of 75% for the background color */
 	/* removed -- border: 4px dashed white; */
 }
 
@@ -89,7 +89,7 @@ h1 {
     font-weight: 500;
     font-style: bold;
 	font-size: 2.4em;
-    letter-spacing: 0.80px;
+    letter-spacing: 1px;
     margin: 0px auto 10px auto;
     color: #00334d;
 }
@@ -99,6 +99,7 @@ h2 {
     font-weight: 500;
     font-style: italic;
 	font-size: 1.4em;
+    letter-spacing: 0.65px;
     line-height: 1.2;
     color: #00334d;
     padding: 0px 0px;
@@ -110,18 +111,18 @@ p {
 	font-family: Sans, sans-serif;
     font-weight: 500;
     font-style: normal;
-	font-size: 1em;
+	font-size: 1.01em;
     line-height: 1.6;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.23px;
     color: #004466;
     margin: 0px auto 10px auto;
     
 /* paragraph fading in and out when page is first opened */
- animation: fadeIn ease 6s;
--webkit-animation: fadeIn ease 6s;
--moz-animation: fadeIn ease 6s;
--o-animation: fadeIn ease; 6s;
--ms-animation: fadeIn ease; 6s; 
+ animation: fadeIn ease 4.8s;
+-webkit-animation: fadeIn ease 4.8s;
+-moz-animation: fadeIn ease 4.8s;
+-o-animation: fadeIn ease; 4.8s;
+-ms-animation: fadeIn ease; 4.8s; 
 }
 
 @keyframes fadeIn {
@@ -194,7 +195,7 @@ nav a{
 nav ul {
   list-style: none;
   text-align: center;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.53px;
 }
 nav ul li {
   display: inline-block;
@@ -206,12 +207,12 @@ nav ul li a {
   color: #004466;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
-  transition: all 2.34s;
+  transition: all 1.6s;
 }
 nav ul li a:hover {
   color:#404040;
@@ -237,5 +238,5 @@ nav ul li a:hover:after {
   width: 75%;
 }
 nav.fill ul li a {
-  transition: all 1s;
+  transition: all 4.8s;
 }
