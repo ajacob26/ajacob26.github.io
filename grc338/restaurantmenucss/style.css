@@ -1,0 +1,88 @@
+/*CSS Document*/
+
+h1{
+	text-align: center;
+	font-family: serif;
+	font-size: 3em;
+	padding: 1em;
+}
+
+.deep_bluefont{
+	color: rgb(0,77,153);
+}
+
+.dark_bluefont{
+	color: rgb(0,102,204);
+}
+
+.medium_bluefont{
+	color: rgb(77,166,255);
+}
+
+.light_bluefont{
+	color: rgb(128,191,255);
+}
+
+h2{
+	font-color: rgb(0,0,0);
+	text-align: center;
+	font-family: serif;
+	font-size: 1.9em;
+} 
+
+h3{
+	color: rgb(255,255,255);
+	text-align: center;
+	padding: 0.1em;
+}
+
+h3.appetizers_backgroundcolor{
+	background-color: rgb(0,77,153);
+}
+
+h3.salads_backgroundcolor{
+	background-color: rgb(0,102,204);;
+}
+
+h3.entrees_backgroundcolor{
+	background-color: rgb(77,166,255);
+}
+
+h3.dessert_backgroundcolor{
+	background-color: rgb(128,191,255)
+}
+
+ul{
+	list-style: none;
+	padding: 0.5em;
+}
+
+h4{
+	color: rgb(0,86,179);
+	font-size: 1.2em;
+	text-align: center;
+}
+
+h4.appetizers_name_color{
+	color: rgb(0,77,153);
+}
+
+h4.salads_name_color{
+	color: rgb(0,102,204);;
+}
+
+h4.entrees_name_color{
+	color: rgb(77,166,255);
+}
+
+h4.dessert_name_color{
+	color: rgb(128,191,255);
+}
+
+.fontcolor{
+	color: rgb(0,0,0);
+	text-align: center;
+	padding: 0.1em;
+}
+
+
