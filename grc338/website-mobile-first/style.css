@@ -1,0 +1,111 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+}
+
+body{
+    background-color: #CBE8E8;
+    margin: 0.5em;
+}
+
+div.container{ 
+    background-color: #CBE8E8;
+    margin: 0em;
+}
+
+header {
+    background-color: #F8FDFF;
+    padding: 1.5em 1.5em 0.5em 1.5em;
+}
+
+section {
+    margin: 2em 1em;
+}
+
+h1 {
+    width: 5em;
+    margin: 0em;
+    padding: 0em;
+}
+
+h1 a{
+    margin: 0em;
+}
+
+nav ul {
+    padding: 0em;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: #70808A;
+    text-decoration: none;
+    font-family: Rockwell, serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-right: 1em;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a:hover{
+    color: #CBE8E8;
+}
+
+figure {
+    margin: 0em;
+    padding: 0em;
+}
+
+h2{
+    font-family: Rockwell, serif;
+    font-weight: 550;
+    font-style: normal;
+    margin-right: 1em;
+    letter-spacing: 0.05em;
+}
+
+p{
+    margin: 0em;
+    font-family: Georgia, sans-serif;
+    font-style: normal;  
+    line-height: 1.3em;
+}
+
+.about{
+    margin: 2em 0em;
+    font-family: Georgia, sans-serif;
+    font-style: normal;  
+    line-height: 1.3em;
+}
+
+footer {
+    background-color: #F8FDFF;
+    margin: 0em;
+    padding: 1em;
+    font-family: Georgia, sans-serif;
+    font-size: 0.8em;
+    font-style: normal;  
+}
+
+.phonenumber {
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    padding: 0em;
+}
+
+h3{
+    margin: 0em;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: normal;  
+}
+
