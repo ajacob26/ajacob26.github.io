@@ -1,0 +1,162 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+    margin: 0em;
+    padding: 0em;
+}
+
+body{
+    background-color: #CBE8E8;
+    margin: 0em;
+    padding: 0em;
+}
+
+div.container{ 
+    background-color: #CBE8E8;
+    margin: 0em;
+    padding: 0em;
+}
+
+header {
+    background-color: #F8FDFF;
+    padding: 1em 1.5em 0.5em 1.5em;
+    display: grid;
+    grid-template-columns: 0.3fr 2fr;
+}
+
+section {
+    margin: 2em 1em;
+    padding: 0em;
+}
+
+h1 {
+    width: 4em;
+    margin: 0em;
+    padding: 0em;
+}
+
+h1 a{
+    margin: 0em;
+    padding: 0em;
+}
+
+nav{
+    margin: auto 0em auto 2em;
+    padding: 0em;
+}
+
+nav ul {
+    margin: 0em;
+    padding: 0em;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: #70808A;
+    text-decoration: none;
+    font-family: Rockwell, serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-right: 0.4em;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a:hover{
+    color: #CBE8E8;
+}
+
+.image{
+    margin: 1.5em 0em 0em 0em;
+    padding: 0em;
+}
+
+section{
+    margin: 1em;
+    padding: 0em;
+}
+
+figure {
+    background-color: #F8FDFF;
+    margin: 0em;
+    padding: 0.3em 0.3em 0.1em 0.3em;
+    
+}
+
+h2{
+    font-family: Rockwell, serif;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 1em;
+    margin-right: 1em;
+    letter-spacing: 0.05em;
+}
+
+p{
+    margin: 0em;
+    padding: 0em;
+    font-family: Georgia, sans-serif;
+    font-style: normal;  
+}
+
+p.line_spacing{
+    margin: 0em 0em 2em 0em;
+    padding: 0em;
+    font-family: Georgia, sans-serif;
+    font-style: normal;  
+    line-height: 1.3em;
+}
+
+footer {
+    background-color: #F8FDFF;
+    margin: 0em;
+    padding: 0.7em 1em 0.7em 1em;
+    font-family: Georgia, sans-serif;
+    font-size: 0.8em;
+    font-style: normal;  
+}
+
+.phonenumber {
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    margin: 0em;
+    padding: 0em;
+}
+
+h3{
+    margin: 0em;
+    padding: 0em;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: normal;  
+}
+
+h4 {
+    margin-bottom: 0.5em;
+    padding: 0em;
+}
+
+p.line_spacing_location{
+    font-family: Georgia, sans-serif;
+    font-style: normal;  
+    line-height: 1.4em;
+    margin: 0em;
+    padding: 0em;
+}
+
+@media screen and (min-width: 40em){
+    div.container{
+        max-width: 60em;
+        margin: auto;
+        padding: auto;
+    }
+}
